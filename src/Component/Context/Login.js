@@ -9,8 +9,8 @@ import { allContext } from './Context';
       margin:"150px auto",
       textAlign:"center"
 
-     
-    
+
+
  }
 const Login = () => {
     const {setIslogedin,setUser,user}  = useContext(allContext);
@@ -39,12 +39,12 @@ const Login = () => {
             ...user,
             password:e.target.value
         })}}/>
- 
+
        </div><br/>
        <div>
         <button onClick={handle}>Login</button>
        </div>
-       
+
     </div>
   )
 }

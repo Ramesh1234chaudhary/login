@@ -3,15 +3,16 @@
     color: white;
     padding: 20px;
     display: flex;
-
+   
 }
 #title{
-    width: 40%;
+    width: 30%;
      text-align: center;
 }
 #menu{
     width: 60%;
     text-align: center;
+    gap:10px;
 }
 a{
     color:white;
@@ -19,4 +20,14 @@ a{
     text-decoration: none;
 
 
+}
+.add{
+    
+    margin-left: 10px;
+
+
+}c
+
+.add span{
+    margin-top: 5px;
 }

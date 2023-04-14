@@ -1,0 +1,27 @@
+.productdetails h2{
+ margin-left: 100px;
+ margin-top: 30px;
+}
+.productdetails img{
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.timepass{
+    display: flex;
+    flex-direction: column;
+}
+.timepass h4{
+    width: 300px;
+}
+.timepass h3{
+    margin-top: 20px;
+    color: aqua;
+}
+.timepass h2{
+    margin-top: 20px;
+    color: red;
+}
